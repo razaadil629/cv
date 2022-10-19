@@ -16,35 +16,71 @@
 <hr>
 
   <form class="" action="mailto:razaadil629@gmail.com" method="post">
-    <label for="name">your name:</label>
-    <input type="text" name="name" value=""required minlength="4"maxlength="10"size="12">
+    <div>
+      <label for="name">Enter your name:</label>
+      <input type="text" name="name" value="" required minlength="4" maxlength="10" size="12">
+    </div>
     <br>
-    <label for="">do you want sign up email?</label>
-    <input type="checkbox" name="" value="">
+    <div class="">
+      <label for="">Do you want sign up email?</label>
+      <input type="checkbox" name="" value="" required>
+    </div>
     <br>
-    <label for="">enter your password:</label>
-    <input type="password" name="" value="">
+    <div class="">
+      <label for="">Enter your email address:</label>
+      <input type="email" name="email" value="" required>
+
+    </div><br>
+    <div class="">
+      <label for="">Enter your password:</label>
+      <input type="password" name="" value="">
+    </div>
+
     <br>
-    <label for="">please enter your date of birth:</label>
-    <input type="date" name="" value=""><br>
-    <label for="gender">enter your gender:</label>
-    <label for="gender">male:</label>
-    <input type="radio" name="" value="">
-    <label for="gender">female:</label>
-    <input type="radio" name="" value="">
+    <div class="">
+      <label for="">Enter your date of birth:</label>
+      <input type="date" name="" value="" required>
+    </div>
     <br>
-    <label for="">enter your email:</label>
-    <input type="email" name="" value=""><br><br>
-    <label for="">your message:</label>
-    <textarea name="name" rows="1" cols="35"></textarea>
+
+    <fieldset>
+      <div>
+        <legend>select your gender:</legend>
+        <label for="male">male:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="female">female:</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+      </div>
+
+    </fieldset>
+    <br>
+    <legend>which city you want your center;</legend>
+    <div class="">
+      <input type="checkbox" id="ghazipur" name="ghazipur" value="">
+      <label for="">ghazipur</label>
+    </div>
+    <div class="">
+      <input type="checkbox" id="banaras" name="banaras" value="">
+      <label for="">banaras</label>
+    </div>
+    <div class="">
+      <input type="checkbox" id="lko" name="lko" value="">
+      <label for="">lko</label>
+    </div>
+    <div class="">
+      <input type="checkbox" id="delhi" name="delhi" value="">
+      <label for="">delhi</label>
+    </div>
+
+    </fieldset><br>
+    <br>
+    <label for="">your message:</label><br>
+    <textarea name="name" rows="10 " cols="35"></textarea>
 
 
 
 
     <input type="submit" name="">
-
-
-
 
 
   </form>
